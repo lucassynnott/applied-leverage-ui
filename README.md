@@ -27,14 +27,16 @@ npm run check
 
 ## Design and source policy
 
-- AIcss: public site states its components are free to use. Used as a source for agent-state vocabulary and interaction research.
-- Beautiful UI: used as pattern research only. No public redistribution license was found during creation, so code here is independently implemented.
+- AIcss: used only for agent-state vocabulary and interaction research. Its pricing page says 9 components are free and the full 14-component set requires a paid license. Public code visibility is not treated as permission, and no AIcss component source is included here.
+- Beautiful UI: its public component snippets are MIT-licensed, copyright © 2026 Shane Levine. This library was independently implemented rather than copied, but Beautiful UI remains a permitted reference under its published license.
 - Zepa UI: used as visual reference only. Its MIT + Commons Clause license explicitly forbids repackaging components in another component library. No Zepa source is included.
 
 Source URLs:
 
 - https://www.aicss.dev
+- https://www.aicss.dev/pricing
 - https://www.beautifului.dev
+- https://www.beautifului.dev/license
 - https://zepa.design/components
 - https://github.com/zepa-ui/zepa.design/blob/main/LICENSE
 
