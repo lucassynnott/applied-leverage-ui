@@ -1,0 +1,1784 @@
+{
+  "schemaVersion": 1,
+  "upstream": {
+    "repository": "https://github.com/untitleduico/react.git",
+    "commit": "c981a73bcd6b6c68d2a54070f20f020191212828",
+    "commitDate": "2026-08-26T20:21:02+02:00",
+    "license": "MIT"
+  },
+  "policy": {
+    "included": [
+      "LICENSE",
+      "README.md",
+      "components/**/*.{ts,tsx,json}",
+      "hooks/**/*.{ts,tsx}",
+      "utils/**/*.{ts,tsx}",
+      "styles/**/*.css"
+    ],
+    "excluded": [
+      "components/**/*.demo.tsx",
+      "components/**/*.story.tsx",
+      "components/internal/**"
+    ],
+    "note": "Only source from the MIT-licensed open-source repository is included. Untitled UI React PRO is not included."
+  },
+  "counts": {
+    "upstreamComponentTsx": 296,
+    "includedComponentTsx": 220,
+    "includedComponentTsxByCategory": {
+      "application": 31,
+      "base": 70,
+      "foundations": 104,
+      "shared-assets": 15
+    },
+    "excludedComponentTsx": 76,
+    "excludedComponentTsxByReason": {
+      "demo": 36,
+      "story": 39,
+      "internal": 1
+    },
+    "supportingSourceFiles": 18,
+    "includedUpstreamFiles": 240
+  },
+  "files": {
+    "included": [
+      {
+        "path": "components/application/app-navigation/base-components/mobile-header.tsx",
+        "kind": "component",
+        "sha256": "6ad8dc8ecead926ba05ab0d03e91515fda81a9edcdb62c3dd0ffe5016cd3b3e6",
+        "exportSubpath": "./untitled-ui/components/application/app-navigation/base-components/mobile-header"
+      },
+      {
+        "path": "components/application/app-navigation/base-components/nav-account-card.tsx",
+        "kind": "component",
+        "sha256": "d67823e0bcfd15f904631a912d0db6369265324873aa7dd9ddc56aba87d3247d",
+        "exportSubpath": "./untitled-ui/components/application/app-navigation/base-components/nav-account-card"
+      },
+      {
+        "path": "components/application/app-navigation/base-components/nav-button.tsx",
+        "kind": "component",
+        "sha256": "5c45d988c7380a3139b582e167412f5e977b98af9ad517ebaf90df1cc0c75bfa",
+        "exportSubpath": "./untitled-ui/components/application/app-navigation/base-components/nav-button"
+      },
+      {
+        "path": "components/application/app-navigation/base-components/nav-item.tsx",
+        "kind": "component",
+        "sha256": "30f9ca861a440d5724880476428952afa8e7277dbb9dcf8c34f90d07e5919bc2",
+        "exportSubpath": "./untitled-ui/components/application/app-navigation/base-components/nav-item"
+      },
+      {
+        "path": "components/application/app-navigation/base-components/nav-list.tsx",
+        "kind": "component",
+        "sha256": "68cfcd74fc1c267bc23cc761491a74c40af8df869b39447515e5f4b6af692755",
+        "exportSubpath": "./untitled-ui/components/application/app-navigation/base-components/nav-list"
+      },
+      {
+        "path": "components/application/app-navigation/config.ts",
+        "kind": "component-support",
+        "sha256": "b83709e53830d685073bd4fd319ed236ec32d4eebe0ef4f02e6262e31f48264c",
+        "exportSubpath": "./untitled-ui/components/application/app-navigation/config"
+      },
+      {
+        "path": "components/application/app-navigation/header-navigation.tsx",
+        "kind": "component",
+        "sha256": "490b4df40643a37fd0afc423795b469913fe490c59f533e815ff8ecb7db8f7bd",
+        "exportSubpath": "./untitled-ui/components/application/app-navigation/header-navigation"
+      },
+      {
+        "path": "components/application/app-navigation/sidebar-navigation-base.tsx",
+        "kind": "component",
+        "sha256": "6b1fa6fd991f5741bb9a4db6f6fd6a611270c5cbaedab76218962ab3a65829d0",
+        "exportSubpath": "./untitled-ui/components/application/app-navigation/sidebar-navigation-base"
+      },
+      {
+        "path": "components/application/app-navigation/sidebar-navigation/sidebar-dual-tier.tsx",
+        "kind": "component",
+        "sha256": "fe33bd14326fce4b6db4f04c468afc83356c4d4291dac5004db5005e21a72ca3",
+        "exportSubpath": "./untitled-ui/components/application/app-navigation/sidebar-navigation/sidebar-dual-tier"
+      },
+      {
+        "path": "components/application/app-navigation/sidebar-navigation/sidebar-section-dividers.tsx",
+        "kind": "component",
+        "sha256": "773c2fa98fac22f2e3a6218691685c5c890bb6935c6a79c5594f01bc4d715c58",
+        "exportSubpath": "./untitled-ui/components/application/app-navigation/sidebar-navigation/sidebar-section-dividers"
+      },
+      {
+        "path": "components/application/app-navigation/sidebar-navigation/sidebar-sections-subheadings.tsx",
+        "kind": "component",
+        "sha256": "73997f491a17f95061f5f38bda7cb67f963358a9619564d77f5d76e55a4124e3",
+        "exportSubpath": "./untitled-ui/components/application/app-navigation/sidebar-navigation/sidebar-sections-subheadings"
+      },
+      {
+        "path": "components/application/app-navigation/sidebar-navigation/sidebar-simple.tsx",
+        "kind": "component",
+        "sha256": "31f57676da011c5cf44f22236ddd7a6b413a4318e67fd09f8050196f2f69ba24",
+        "exportSubpath": "./untitled-ui/components/application/app-navigation/sidebar-navigation/sidebar-simple"
+      },
+      {
+        "path": "components/application/app-navigation/sidebar-navigation/sidebar-slim.tsx",
+        "kind": "component",
+        "sha256": "b08e7bbee2b2aa1248a91aa91214e126ec8645eabc687314ee280932c8d7e44a",
+        "exportSubpath": "./untitled-ui/components/application/app-navigation/sidebar-navigation/sidebar-slim"
+      },
+      {
+        "path": "components/application/carousel/carousel-base.tsx",
+        "kind": "component",
+        "sha256": "a40bbeb6fd1fa1133917d7ea4b33be405747cbaf72efcd1b5c2599c62e360ef4",
+        "exportSubpath": "./untitled-ui/components/application/carousel/carousel-base"
+      },
+      {
+        "path": "components/application/charts/charts-base.tsx",
+        "kind": "component",
+        "sha256": "841cab8767620da5390d8597aa48f491e50f33b5e941ab8f55abb1142f3eecde",
+        "exportSubpath": "./untitled-ui/components/application/charts/charts-base"
+      },
+      {
+        "path": "components/application/date-picker/calendar.tsx",
+        "kind": "component",
+        "sha256": "9bd9d085340852c96810986db96bfa7862d4e2a90a7613efd50a576da22da8a8",
+        "exportSubpath": "./untitled-ui/components/application/date-picker/calendar"
+      },
+      {
+        "path": "components/application/date-picker/cell.tsx",
+        "kind": "component",
+        "sha256": "5276acf52e43a8d3745a723011a4436a3650a8895791b5c9cc827505c7f6e7ef",
+        "exportSubpath": "./untitled-ui/components/application/date-picker/cell"
+      },
+      {
+        "path": "components/application/date-picker/date-picker.tsx",
+        "kind": "component",
+        "sha256": "2644218cc4aed8d535e4cb7c23ec2eb507501140dfb5e3dcd9b7f09e79576ed9",
+        "exportSubpath": "./untitled-ui/components/application/date-picker/date-picker"
+      },
+      {
+        "path": "components/application/date-picker/date-range-picker.tsx",
+        "kind": "component",
+        "sha256": "bc60eee51ab3f7b89c4a4a3775df3b4b66ef5a02fc6a30c448603992acc54c96",
+        "exportSubpath": "./untitled-ui/components/application/date-picker/date-range-picker"
+      },
+      {
+        "path": "components/application/date-picker/range-calendar.tsx",
+        "kind": "component",
+        "sha256": "f1cd37b25c43c3bfb542dd7aa9e52440f6732dceb5dd4abc89f9b7f86a1af362",
+        "exportSubpath": "./untitled-ui/components/application/date-picker/range-calendar"
+      },
+      {
+        "path": "components/application/empty-state/empty-state.tsx",
+        "kind": "component",
+        "sha256": "7ca8e4f7d4bda8edc04b8eefe9a45864271ea826d3bfd063c59286f7870763a9",
+        "exportSubpath": "./untitled-ui/components/application/empty-state/empty-state"
+      },
+      {
+        "path": "components/application/file-upload/draggable.tsx",
+        "kind": "component",
+        "sha256": "5a246a964b8d21bc078610207ddbc9d7b75d8fdc078334e39c12834210cbd7a8",
+        "exportSubpath": "./untitled-ui/components/application/file-upload/draggable"
+      },
+      {
+        "path": "components/application/file-upload/file-upload-base.tsx",
+        "kind": "component",
+        "sha256": "91185f67b38fe143ccaf16f7ff80c60926f824cc5a7fd4b6c24ebdc47d0473a0",
+        "exportSubpath": "./untitled-ui/components/application/file-upload/file-upload-base"
+      },
+      {
+        "path": "components/application/loading-indicator/loading-indicator.tsx",
+        "kind": "component",
+        "sha256": "423cdbd0cf04a274a0da37d21912ffd961ef053dbc002e094039dd225c4e2692",
+        "exportSubpath": "./untitled-ui/components/application/loading-indicator/loading-indicator"
+      },
+      {
+        "path": "components/application/modals/modal.tsx",
+        "kind": "component",
+        "sha256": "d698ac483dcf8e305b5258b0edbb860ea45c1562a82a7fe5717baa6c08272d42",
+        "exportSubpath": "./untitled-ui/components/application/modals/modal"
+      },
+      {
+        "path": "components/application/pagination/pagination-base.tsx",
+        "kind": "component",
+        "sha256": "00e5327f3d3362e2ce2c783c045b89c32d60ce3f52f288858624718f837c8976",
+        "exportSubpath": "./untitled-ui/components/application/pagination/pagination-base"
+      },
+      {
+        "path": "components/application/pagination/pagination-dot.tsx",
+        "kind": "component",
+        "sha256": "7593d3f99004a736ed17850deb29aa2b86c296c7a64439db5348e81d13d824f0",
+        "exportSubpath": "./untitled-ui/components/application/pagination/pagination-dot"
+      },
+      {
+        "path": "components/application/pagination/pagination-line.tsx",
+        "kind": "component",
+        "sha256": "7293ebcd828d37e1df8470fb3360a40be7e63b5229958f4cf1b21656d2f05039",
+        "exportSubpath": "./untitled-ui/components/application/pagination/pagination-line"
+      },
+      {
+        "path": "components/application/pagination/pagination.tsx",
+        "kind": "component",
+        "sha256": "8b1f94c0627fef690930f8ee813d074722906919ec1aa278e040a2cf9954f151",
+        "exportSubpath": "./untitled-ui/components/application/pagination/pagination"
+      },
+      {
+        "path": "components/application/slideout-menus/slideout-menu.tsx",
+        "kind": "component",
+        "sha256": "242c25873ebb543db0d982e1c49b2d8fcca21a595e726c3bd185447497a6d918",
+        "exportSubpath": "./untitled-ui/components/application/slideout-menus/slideout-menu"
+      },
+      {
+        "path": "components/application/table/customers.json",
+        "kind": "component-support",
+        "sha256": "7d89dd67086e4a7e07fc888038704b5f1025f0b5ee9b06e531ab8aeda9d489f5"
+      },
+      {
+        "path": "components/application/table/invoices.json",
+        "kind": "component-support",
+        "sha256": "943877d0e448c3b58b3c17d11a46d264694378e03826e285ce355cb6425c88ae"
+      },
+      {
+        "path": "components/application/table/table.tsx",
+        "kind": "component",
+        "sha256": "f91d47fdba53705123ab304a14c2fe46e955e216c40170af3648322343ac40c7",
+        "exportSubpath": "./untitled-ui/components/application/table/table"
+      },
+      {
+        "path": "components/application/table/team-members.json",
+        "kind": "component-support",
+        "sha256": "d0288f13348e9e90293c6bf656f669cae96c4178371bb82fd12630a840248464"
+      },
+      {
+        "path": "components/application/table/uploaded-files.json",
+        "kind": "component-support",
+        "sha256": "f605f022045c35c96da1a828b3cef444cfc6c5d0afee951383738917a0b87fab"
+      },
+      {
+        "path": "components/application/tabs/tabs.tsx",
+        "kind": "component",
+        "sha256": "090aa84ea228281db1eb3ef811038bef3b2aa6e1b93174ced73a71ea0bf16914",
+        "exportSubpath": "./untitled-ui/components/application/tabs/tabs"
+      },
+      {
+        "path": "components/base/avatar/avatar-label-group.tsx",
+        "kind": "component",
+        "sha256": "9d69a72bea31b01ba4c5186be54553bc68a3f0dc76ed8e5abd0164445c43af6e",
+        "exportSubpath": "./untitled-ui/components/base/avatar/avatar-label-group"
+      },
+      {
+        "path": "components/base/avatar/avatar-profile-photo.tsx",
+        "kind": "component",
+        "sha256": "9267f71474e337b1faf908cad857a59d6993f733352e0dda0fe275d69eb61be5",
+        "exportSubpath": "./untitled-ui/components/base/avatar/avatar-profile-photo"
+      },
+      {
+        "path": "components/base/avatar/avatar.tsx",
+        "kind": "component",
+        "sha256": "49bcc021bf717ab395a6caec94bd19cb82eb25d3e13afafa74aa937582e0ba28",
+        "exportSubpath": "./untitled-ui/components/base/avatar/avatar"
+      },
+      {
+        "path": "components/base/avatar/base-components/avatar-add-button.tsx",
+        "kind": "component",
+        "sha256": "4676000225227c5e9f6a0e953c03c015a5c10ea0de282024ddaabb3c8600032d",
+        "exportSubpath": "./untitled-ui/components/base/avatar/base-components/avatar-add-button"
+      },
+      {
+        "path": "components/base/avatar/base-components/avatar-company-icon.tsx",
+        "kind": "component",
+        "sha256": "52223fe32cd9f6b1f08702eb052af37a875f380c3f2626ccc8c2e6da0329bb09",
+        "exportSubpath": "./untitled-ui/components/base/avatar/base-components/avatar-company-icon"
+      },
+      {
+        "path": "components/base/avatar/base-components/avatar-count.tsx",
+        "kind": "component",
+        "sha256": "ac7958c908a28fe7c4e090d54af4dcfb5cceb1faf3c2bac94ea0cb8a08bc088d",
+        "exportSubpath": "./untitled-ui/components/base/avatar/base-components/avatar-count"
+      },
+      {
+        "path": "components/base/avatar/base-components/avatar-online-indicator.tsx",
+        "kind": "component",
+        "sha256": "40dd93e07eb5d2875298586f027bad205b78aabb3be6a296ef036437595b0226",
+        "exportSubpath": "./untitled-ui/components/base/avatar/base-components/avatar-online-indicator"
+      },
+      {
+        "path": "components/base/avatar/base-components/index.tsx",
+        "kind": "component",
+        "sha256": "d630103c098195bb12b76683ddce85402dcc394feef45d2427e478209d2c2bd5",
+        "exportSubpath": "./untitled-ui/components/base/avatar/base-components/index"
+      },
+      {
+        "path": "components/base/avatar/base-components/verified-tick.tsx",
+        "kind": "component",
+        "sha256": "9cf7b0cd9970923bd6eb9d0a1c82eab1ddcdda007a6e94e48b047f7ef85b2473",
+        "exportSubpath": "./untitled-ui/components/base/avatar/base-components/verified-tick"
+      },
+      {
+        "path": "components/base/avatar/utils.ts",
+        "kind": "component-support",
+        "sha256": "a4bd713895f91ea8e2723ad786ecdacb577331f34a66598e26bba099f465193f",
+        "exportSubpath": "./untitled-ui/components/base/avatar/utils"
+      },
+      {
+        "path": "components/base/badges/badge-groups.tsx",
+        "kind": "component",
+        "sha256": "921b113bbedc4c47069116f3a7e0eaf9a50d370683a77db85cf840986848e09a",
+        "exportSubpath": "./untitled-ui/components/base/badges/badge-groups"
+      },
+      {
+        "path": "components/base/badges/badge-types.ts",
+        "kind": "component-support",
+        "sha256": "086f2d74cddd0decb0fa78b80609ff17968df7a9c09661d813243ead847d1501",
+        "exportSubpath": "./untitled-ui/components/base/badges/badge-types"
+      },
+      {
+        "path": "components/base/badges/badges.tsx",
+        "kind": "component",
+        "sha256": "3ba3b3a1da36b92154ae8f7e831b6fc8213e7d7ffd2bc73095b29d552e043333",
+        "exportSubpath": "./untitled-ui/components/base/badges/badges"
+      },
+      {
+        "path": "components/base/button-group/button-group.tsx",
+        "kind": "component",
+        "sha256": "1871ab9149bc6fe1637ef202fb9d717f79f523f2da8ae423e17e07383d5d7c28",
+        "exportSubpath": "./untitled-ui/components/base/button-group/button-group"
+      },
+      {
+        "path": "components/base/buttons/app-store-buttons-outline.tsx",
+        "kind": "component",
+        "sha256": "16e9c0d48c30ce698084749a9419912a2749a79714280cecd71478d90fb60be5",
+        "exportSubpath": "./untitled-ui/components/base/buttons/app-store-buttons-outline"
+      },
+      {
+        "path": "components/base/buttons/app-store-buttons.tsx",
+        "kind": "component",
+        "sha256": "adace471045a73759de9149952dc0f803dea53b39aedd90fe978130d0822dae7",
+        "exportSubpath": "./untitled-ui/components/base/buttons/app-store-buttons"
+      },
+      {
+        "path": "components/base/buttons/button-utility.tsx",
+        "kind": "component",
+        "sha256": "33365a02e747433dcd6d24950542b42b869ced3585cd04475126553c6e6ad7df",
+        "exportSubpath": "./untitled-ui/components/base/buttons/button-utility"
+      },
+      {
+        "path": "components/base/buttons/button.tsx",
+        "kind": "component",
+        "sha256": "1eb74e3672d0f8c527d90afb4ad7ec95b5253574b5505866d23c91a54381c85a",
+        "exportSubpath": "./untitled-ui/components/base/buttons/button"
+      },
+      {
+        "path": "components/base/buttons/close-button.tsx",
+        "kind": "component",
+        "sha256": "312c6b022a6792a8943922d59b81fbe7c3bc0912d9451d4d7386b9fa94d8ad38",
+        "exportSubpath": "./untitled-ui/components/base/buttons/close-button"
+      },
+      {
+        "path": "components/base/buttons/social-button.tsx",
+        "kind": "component",
+        "sha256": "61216fb671ce90289e2eb9a900d44c04e082250b12def699fcbac0ef1c39b518",
+        "exportSubpath": "./untitled-ui/components/base/buttons/social-button"
+      },
+      {
+        "path": "components/base/buttons/social-logos.tsx",
+        "kind": "component",
+        "sha256": "c83ee3b12ec47a98f3df1f0edd520802ec9bfd5e597422e179a09b8632ea8927",
+        "exportSubpath": "./untitled-ui/components/base/buttons/social-logos"
+      },
+      {
+        "path": "components/base/checkbox/checkbox.tsx",
+        "kind": "component",
+        "sha256": "4266edfa3562c505e869ba55c81a64e7bdd86962835aa0ea9c460fd7ffc89bd1",
+        "exportSubpath": "./untitled-ui/components/base/checkbox/checkbox"
+      },
+      {
+        "path": "components/base/dropdown/dropdown-account-breadcrumb.tsx",
+        "kind": "component",
+        "sha256": "4d8c2b681c792665168a10e2f13e739842a5f2b556e9857d7c9c2a655b7150de",
+        "exportSubpath": "./untitled-ui/components/base/dropdown/dropdown-account-breadcrumb"
+      },
+      {
+        "path": "components/base/dropdown/dropdown-account-button.tsx",
+        "kind": "component",
+        "sha256": "1c4b8586cc8830e6bcf55fc4317a0d3d247eabe5ddfc9dfdcf30a2e052dfda2a",
+        "exportSubpath": "./untitled-ui/components/base/dropdown/dropdown-account-button"
+      },
+      {
+        "path": "components/base/dropdown/dropdown-account-card-md.tsx",
+        "kind": "component",
+        "sha256": "22ebc6e363409518047c77862035b042f4894561550c4c4f476907e97b3d2810",
+        "exportSubpath": "./untitled-ui/components/base/dropdown/dropdown-account-card-md"
+      },
+      {
+        "path": "components/base/dropdown/dropdown-account-card-sm.tsx",
+        "kind": "component",
+        "sha256": "5e70cd63c3f75b14755bb589f47fb922f7a40b0b8ec515e9cc6179ab8a6a17b1",
+        "exportSubpath": "./untitled-ui/components/base/dropdown/dropdown-account-card-sm"
+      },
+      {
+        "path": "components/base/dropdown/dropdown-account-card-xs.tsx",
+        "kind": "component",
+        "sha256": "e1618adc63b1e880566b7399de15598c942a93069f914f994e476f17d04a4bf9",
+        "exportSubpath": "./untitled-ui/components/base/dropdown/dropdown-account-card-xs"
+      },
+      {
+        "path": "components/base/dropdown/dropdown-avatar.tsx",
+        "kind": "component",
+        "sha256": "177cbdf083fdfa19793343adae25f225101c3f1bf5d3ade402286d79034833b2",
+        "exportSubpath": "./untitled-ui/components/base/dropdown/dropdown-avatar"
+      },
+      {
+        "path": "components/base/dropdown/dropdown-button-advanced.tsx",
+        "kind": "component",
+        "sha256": "c765d742c16f111aa11df98eba6ce3b476ebebb2d0f4db2ac8d955d1e57d4585",
+        "exportSubpath": "./untitled-ui/components/base/dropdown/dropdown-button-advanced"
+      },
+      {
+        "path": "components/base/dropdown/dropdown-button-link.tsx",
+        "kind": "component",
+        "sha256": "5b85322bec99e388dfafd1fc5d7b81fd73e6b7ac985963997bee99fc8a861080",
+        "exportSubpath": "./untitled-ui/components/base/dropdown/dropdown-button-link"
+      },
+      {
+        "path": "components/base/dropdown/dropdown-button-simple.tsx",
+        "kind": "component",
+        "sha256": "35d3f2c95db9bc62ddd05f30fff21bfcb7152c8121a0e4f08bf9a277c36661fe",
+        "exportSubpath": "./untitled-ui/components/base/dropdown/dropdown-button-simple"
+      },
+      {
+        "path": "components/base/dropdown/dropdown-context-menu-advanced.tsx",
+        "kind": "component",
+        "sha256": "5b424aebd5c9ce3da2bf5d3f6597e69aa469df0ce47598e489a8f95f145d0092",
+        "exportSubpath": "./untitled-ui/components/base/dropdown/dropdown-context-menu-advanced"
+      },
+      {
+        "path": "components/base/dropdown/dropdown-context-menu-simple.tsx",
+        "kind": "component",
+        "sha256": "0dec25f3325a987a5b38377639bc67b005c3093ddf2dcc7aa72c669326e8d4cc",
+        "exportSubpath": "./untitled-ui/components/base/dropdown/dropdown-context-menu-simple"
+      },
+      {
+        "path": "components/base/dropdown/dropdown-icon-advanced.tsx",
+        "kind": "component",
+        "sha256": "0d6a6fb96e32f47b23e7c0743d56a389fe5cf9dfea76fa57c49642824e9ac6bb",
+        "exportSubpath": "./untitled-ui/components/base/dropdown/dropdown-icon-advanced"
+      },
+      {
+        "path": "components/base/dropdown/dropdown-icon-simple.tsx",
+        "kind": "component",
+        "sha256": "c87f40658b1aa3d74206a7bcbdccf9aeae8b9339248ed0a199ab99b9adc91f4e",
+        "exportSubpath": "./untitled-ui/components/base/dropdown/dropdown-icon-simple"
+      },
+      {
+        "path": "components/base/dropdown/dropdown-integration.tsx",
+        "kind": "component",
+        "sha256": "1c560c2223651719b643875619d74d10776fe3d94dc7e60b13f2a837abb1b5b9",
+        "exportSubpath": "./untitled-ui/components/base/dropdown/dropdown-integration"
+      },
+      {
+        "path": "components/base/dropdown/dropdown-search-advanced.tsx",
+        "kind": "component",
+        "sha256": "50a887f9a0079310709c762522f1ddcd5c1427c8a03b0abb7fc27db380c35b7a",
+        "exportSubpath": "./untitled-ui/components/base/dropdown/dropdown-search-advanced"
+      },
+      {
+        "path": "components/base/dropdown/dropdown-search-simple.tsx",
+        "kind": "component",
+        "sha256": "2c59017bf98d05197e7ea4353845c07ca697443290b203bff666302dc9d6606a",
+        "exportSubpath": "./untitled-ui/components/base/dropdown/dropdown-search-simple"
+      },
+      {
+        "path": "components/base/dropdown/dropdown.tsx",
+        "kind": "component",
+        "sha256": "867271bc38e7cb3fca0a795795ca5cbb7afeb05079991abd96c3ebdc1345a84d",
+        "exportSubpath": "./untitled-ui/components/base/dropdown/dropdown"
+      },
+      {
+        "path": "components/base/file-upload-trigger/file-upload-trigger.tsx",
+        "kind": "component",
+        "sha256": "a784f4d43ee461a6bd19fc4d43a8cd32d21c6cbb8f2f878053d6fb2f130816c1",
+        "exportSubpath": "./untitled-ui/components/base/file-upload-trigger/file-upload-trigger"
+      },
+      {
+        "path": "components/base/form/form.tsx",
+        "kind": "component",
+        "sha256": "a90bbe7d4cd6f63be0127a70b753da72dfbb00f9e82d915e5e0313f3ad31fdbb",
+        "exportSubpath": "./untitled-ui/components/base/form/form"
+      },
+      {
+        "path": "components/base/form/hook-form.tsx",
+        "kind": "component",
+        "sha256": "494f0ccb806e02c1d3dbf1beac73231e910714cc3c26fc5d08d6e9a48b1354e2",
+        "exportSubpath": "./untitled-ui/components/base/form/hook-form"
+      },
+      {
+        "path": "components/base/input/hint-text.tsx",
+        "kind": "component",
+        "sha256": "521941d440c71a807fc81ee50ee6262ea414ab5fc4a39f5ce5ea5ff16f3b3037",
+        "exportSubpath": "./untitled-ui/components/base/input/hint-text"
+      },
+      {
+        "path": "components/base/input/input-date.tsx",
+        "kind": "component",
+        "sha256": "c3f54bdb875535170eecb035cca0f82d1da5f04c07fff15090bf5ec2a1421a66",
+        "exportSubpath": "./untitled-ui/components/base/input/input-date"
+      },
+      {
+        "path": "components/base/input/input-file.tsx",
+        "kind": "component",
+        "sha256": "fe384369b187f1622b42d498b2d8a8d8f62b2a71c16aec920c8dd17bba085d86",
+        "exportSubpath": "./untitled-ui/components/base/input/input-file"
+      },
+      {
+        "path": "components/base/input/input-group.tsx",
+        "kind": "component",
+        "sha256": "cecbfefdf142fb26f2f5b45b90eec9509e3d125264b7b4f55ec260c29c2006a0",
+        "exportSubpath": "./untitled-ui/components/base/input/input-group"
+      },
+      {
+        "path": "components/base/input/input-number.tsx",
+        "kind": "component",
+        "sha256": "ebf11bd4a2b72fd7a9ff55ca1d1c689c26360d9d441c08c1836be7b218e5d74f",
+        "exportSubpath": "./untitled-ui/components/base/input/input-number"
+      },
+      {
+        "path": "components/base/input/input-payment.tsx",
+        "kind": "component",
+        "sha256": "1b65ae9062de96a40b6f869e7ed7c11f307d337d43e9a4923444be0a035cd85c",
+        "exportSubpath": "./untitled-ui/components/base/input/input-payment"
+      },
+      {
+        "path": "components/base/input/input-tags-outer.tsx",
+        "kind": "component",
+        "sha256": "4399e31396af2f3c0791fc8591e7ba43afe60e60d768dfff35fcec84f7359e48",
+        "exportSubpath": "./untitled-ui/components/base/input/input-tags-outer"
+      },
+      {
+        "path": "components/base/input/input-tags.tsx",
+        "kind": "component",
+        "sha256": "38d2e9e2aa23f4fec3253dd79229be820128e889f525ef94d3b66feebe7eb256",
+        "exportSubpath": "./untitled-ui/components/base/input/input-tags"
+      },
+      {
+        "path": "components/base/input/input.tsx",
+        "kind": "component",
+        "sha256": "efd3961f68eecd391857411fd28929d25639d9b779471bffa6e2bf4d68d5df4b",
+        "exportSubpath": "./untitled-ui/components/base/input/input"
+      },
+      {
+        "path": "components/base/input/label.tsx",
+        "kind": "component",
+        "sha256": "12c33452d3f864b5e254021b83de02b6874225c3c39d95db4e3befd5ec113a77",
+        "exportSubpath": "./untitled-ui/components/base/input/label"
+      },
+      {
+        "path": "components/base/input/pin-input.tsx",
+        "kind": "component",
+        "sha256": "909b78c4ceb5395ea7f8766667f08d296180d30617729808df08cc2767e442b6",
+        "exportSubpath": "./untitled-ui/components/base/input/pin-input"
+      },
+      {
+        "path": "components/base/progress-indicators/progress-circles.tsx",
+        "kind": "component",
+        "sha256": "d6055c16337c7a546a6cc71e73fa135af0faf8f97413d97960b244ac8fe38f3f",
+        "exportSubpath": "./untitled-ui/components/base/progress-indicators/progress-circles"
+      },
+      {
+        "path": "components/base/progress-indicators/progress-indicators.tsx",
+        "kind": "component",
+        "sha256": "0a8189b5f78080e8e81aa712dc352dd213d4fd008e73fc20e660c2aa7d88929c",
+        "exportSubpath": "./untitled-ui/components/base/progress-indicators/progress-indicators"
+      },
+      {
+        "path": "components/base/progress-indicators/simple-circle.tsx",
+        "kind": "component",
+        "sha256": "bc05fc8b4e0d6d56da14196e6351e3a78f6a4e2493804f339843450ed8c91bc0",
+        "exportSubpath": "./untitled-ui/components/base/progress-indicators/simple-circle"
+      },
+      {
+        "path": "components/base/radio-buttons/radio-buttons.tsx",
+        "kind": "component",
+        "sha256": "853415c4a92754637d6896515e11d9bbcc91423b21ae11dd3e5554007bc3d612",
+        "exportSubpath": "./untitled-ui/components/base/radio-buttons/radio-buttons"
+      },
+      {
+        "path": "components/base/select/combobox.tsx",
+        "kind": "component",
+        "sha256": "ae8996154967a26c4103ccd964ed00560804a76c7d39bacf5414064c9af3a787",
+        "exportSubpath": "./untitled-ui/components/base/select/combobox"
+      },
+      {
+        "path": "components/base/select/multi-select.tsx",
+        "kind": "component",
+        "sha256": "6eaf7c1829d2684dc763045662ebc10dffbf086023510bb989bd46e03102917d",
+        "exportSubpath": "./untitled-ui/components/base/select/multi-select"
+      },
+      {
+        "path": "components/base/select/popover.tsx",
+        "kind": "component",
+        "sha256": "a52e8f8f4537b2d1bca089a8ba726e17e1c4c25ce6e38b86af6855048aacf51f",
+        "exportSubpath": "./untitled-ui/components/base/select/popover"
+      },
+      {
+        "path": "components/base/select/select-item.tsx",
+        "kind": "component",
+        "sha256": "93a5e1ac3bc7a9ac4131ab9404d965d7d96e594ef18fbcd7abb0b556a070a2e1",
+        "exportSubpath": "./untitled-ui/components/base/select/select-item"
+      },
+      {
+        "path": "components/base/select/select-native.tsx",
+        "kind": "component",
+        "sha256": "e655674e44fca22b69752cdff1481f6c80c5c4f9a502980917fca24b2d14e0dc",
+        "exportSubpath": "./untitled-ui/components/base/select/select-native"
+      },
+      {
+        "path": "components/base/select/select-shared.tsx",
+        "kind": "component",
+        "sha256": "abfd514facc4e3e32ff5421a54359bb6bc17f8a580f266799fc1c063c958c9d7",
+        "exportSubpath": "./untitled-ui/components/base/select/select-shared"
+      },
+      {
+        "path": "components/base/select/select.tsx",
+        "kind": "component",
+        "sha256": "5c7f17225c9171c987fd632082a4909353e17a9087da452fc5fd345b2f406e10",
+        "exportSubpath": "./untitled-ui/components/base/select/select"
+      },
+      {
+        "path": "components/base/select/tag-select.tsx",
+        "kind": "component",
+        "sha256": "77ad54af80f63dc3c213c2b69b6df15514a0d0b7bfe818ff70b7151e80f84648",
+        "exportSubpath": "./untitled-ui/components/base/select/tag-select"
+      },
+      {
+        "path": "components/base/slider/slider.tsx",
+        "kind": "component",
+        "sha256": "5b864234e97b89569eb2e3b4bdc26e50cf0ad2ed0f8a5bfc24fb8992e98b3da3",
+        "exportSubpath": "./untitled-ui/components/base/slider/slider"
+      },
+      {
+        "path": "components/base/tags/base-components/tag-checkbox.tsx",
+        "kind": "component",
+        "sha256": "2359c1dae409736e228fe3f09566de0cb51ed57e3b4cde4fa3cb2e73abfb3406",
+        "exportSubpath": "./untitled-ui/components/base/tags/base-components/tag-checkbox"
+      },
+      {
+        "path": "components/base/tags/base-components/tag-close-x.tsx",
+        "kind": "component",
+        "sha256": "5d5fa633f18a1c9bc2fcc070bb794d770bad785286032e5eb309967519d7d50e",
+        "exportSubpath": "./untitled-ui/components/base/tags/base-components/tag-close-x"
+      },
+      {
+        "path": "components/base/tags/tags.tsx",
+        "kind": "component",
+        "sha256": "c22cf1fb3cfb1a3a0f6500082138cf52b1f622198614849e15be5b5e3899b7ad",
+        "exportSubpath": "./untitled-ui/components/base/tags/tags"
+      },
+      {
+        "path": "components/base/textarea/textarea.tsx",
+        "kind": "component",
+        "sha256": "f89cf45750697eb5385b1fd20c828624686998f590daa95cf54efabd6a75de5c",
+        "exportSubpath": "./untitled-ui/components/base/textarea/textarea"
+      },
+      {
+        "path": "components/base/toggle/toggle.tsx",
+        "kind": "component",
+        "sha256": "ca63d139ae984f5ef0b255b68325071448ddc3e1d208dd3dae397b10f5620cef",
+        "exportSubpath": "./untitled-ui/components/base/toggle/toggle"
+      },
+      {
+        "path": "components/base/tooltip/tooltip.tsx",
+        "kind": "component",
+        "sha256": "7256ff4b994a14c4d2bb1363de0f90434a33b05944b55d1f9337ad0a2102ca59",
+        "exportSubpath": "./untitled-ui/components/base/tooltip/tooltip"
+      },
+      {
+        "path": "components/foundations/dot-icon.tsx",
+        "kind": "component",
+        "sha256": "a908145b197665d9fc0148d93d7a67806a7548bb69e82d7c2b21a80f9568b4f6",
+        "exportSubpath": "./untitled-ui/components/foundations/dot-icon"
+      },
+      {
+        "path": "components/foundations/featured-icon/featured-icon.tsx",
+        "kind": "component",
+        "sha256": "2c9e0227bcd87c88cc87c20ba119d701de61f855d0add2bc9360b8ecebebe06d",
+        "exportSubpath": "./untitled-ui/components/foundations/featured-icon/featured-icon"
+      },
+      {
+        "path": "components/foundations/integration-icons/bolt-icon.tsx",
+        "kind": "component",
+        "sha256": "3a0c58720c695b2a5d16f304bdb7f4b9e0f188d431d42062a7045dd9d0ad470a",
+        "exportSubpath": "./untitled-ui/components/foundations/integration-icons/bolt-icon"
+      },
+      {
+        "path": "components/foundations/integration-icons/chatgpt-icon.tsx",
+        "kind": "component",
+        "sha256": "c28ab7a2b3ad32a835946e820e29bbeb4cdfa53f0f89fb87514fca32e88e0dc5",
+        "exportSubpath": "./untitled-ui/components/foundations/integration-icons/chatgpt-icon"
+      },
+      {
+        "path": "components/foundations/integration-icons/claude-icon.tsx",
+        "kind": "component",
+        "sha256": "5700742109028d53420ccf15fc4f126a9ce0ce5dde7375b7b979e0cd09a13126",
+        "exportSubpath": "./untitled-ui/components/foundations/integration-icons/claude-icon"
+      },
+      {
+        "path": "components/foundations/integration-icons/cursor-icon.tsx",
+        "kind": "component",
+        "sha256": "a869d7c9128f439fd687c70643e09f0e7ccc07ad5b38334678d541c59aac7188",
+        "exportSubpath": "./untitled-ui/components/foundations/integration-icons/cursor-icon"
+      },
+      {
+        "path": "components/foundations/integration-icons/figma-icon.tsx",
+        "kind": "component",
+        "sha256": "41efad52a3de2c418ec5a64073c26b355ed4f23fd21408017829d8a5c1d9b46c",
+        "exportSubpath": "./untitled-ui/components/foundations/integration-icons/figma-icon"
+      },
+      {
+        "path": "components/foundations/integration-icons/gemini-icon.tsx",
+        "kind": "component",
+        "sha256": "10236b8fd8e165c21ca932b6c8fdd4115077c47d234f0932ab0a46d7fd599138",
+        "exportSubpath": "./untitled-ui/components/foundations/integration-icons/gemini-icon"
+      },
+      {
+        "path": "components/foundations/integration-icons/github-icon.tsx",
+        "kind": "component",
+        "sha256": "c45459cba82d61233d18a9d7faceafba0ccbadd47f93fde5d95c23985763cf79",
+        "exportSubpath": "./untitled-ui/components/foundations/integration-icons/github-icon"
+      },
+      {
+        "path": "components/foundations/integration-icons/grok-icon.tsx",
+        "kind": "component",
+        "sha256": "9dd4ce4744c56cb48359194f226d9334022d235093461d80f8a3af93a545d19b",
+        "exportSubpath": "./untitled-ui/components/foundations/integration-icons/grok-icon"
+      },
+      {
+        "path": "components/foundations/integration-icons/index.tsx",
+        "kind": "component",
+        "sha256": "15876b0e80da2adc47169e25c8315d9c9123ce585884b2daed725c4d2899ad52",
+        "exportSubpath": "./untitled-ui/components/foundations/integration-icons/index"
+      },
+      {
+        "path": "components/foundations/integration-icons/lovable-icon.tsx",
+        "kind": "component",
+        "sha256": "9f818423d72379dabef29511242073f3a7bd52134bb2ba059a09a3e32dcd528d",
+        "exportSubpath": "./untitled-ui/components/foundations/integration-icons/lovable-icon"
+      },
+      {
+        "path": "components/foundations/integration-icons/nextjs-icon.tsx",
+        "kind": "component",
+        "sha256": "f2e04f5043e551d3bd7a9111af5d6b82294a374adbb8f367c920cbcaa19d268b",
+        "exportSubpath": "./untitled-ui/components/foundations/integration-icons/nextjs-icon"
+      },
+      {
+        "path": "components/foundations/integration-icons/perplexity-icon.tsx",
+        "kind": "component",
+        "sha256": "2a9aa70f57c23a452cfc0348274231b5018a6751893e44f45c9b2322d422cacd",
+        "exportSubpath": "./untitled-ui/components/foundations/integration-icons/perplexity-icon"
+      },
+      {
+        "path": "components/foundations/integration-icons/react-icon.tsx",
+        "kind": "component",
+        "sha256": "112e2dc7e4b925467cb0146ee85dcaadcb21e7d194b49fb176af209c8e8f7198",
+        "exportSubpath": "./untitled-ui/components/foundations/integration-icons/react-icon"
+      },
+      {
+        "path": "components/foundations/integration-icons/replit-icon.tsx",
+        "kind": "component",
+        "sha256": "71dae884572cfd178df85470df2bd82c84b11855daad7217336ddcf1b13c14a6",
+        "exportSubpath": "./untitled-ui/components/foundations/integration-icons/replit-icon"
+      },
+      {
+        "path": "components/foundations/integration-icons/tailwind-css-icon.tsx",
+        "kind": "component",
+        "sha256": "dfa87cd4b9354f351de1d3799356128f93265d762b5fcb5f823517db18e0bea8",
+        "exportSubpath": "./untitled-ui/components/foundations/integration-icons/tailwind-css-icon"
+      },
+      {
+        "path": "components/foundations/integration-icons/v0-icon.tsx",
+        "kind": "component",
+        "sha256": "c8034a4380702aa862a29d2df9bb85a0d4fbf679b4f17350601d466b304966e2",
+        "exportSubpath": "./untitled-ui/components/foundations/integration-icons/v0-icon"
+      },
+      {
+        "path": "components/foundations/integration-icons/vite-icon.tsx",
+        "kind": "component",
+        "sha256": "bebdd88cf9ecda29f12452aaf8c0681d0c1f086948d88ad47176b3488dee0cbc",
+        "exportSubpath": "./untitled-ui/components/foundations/integration-icons/vite-icon"
+      },
+      {
+        "path": "components/foundations/logo/untitledui-logo-minimal.tsx",
+        "kind": "component",
+        "sha256": "1878f083f794bf972295bfb0c817c0efd7d0f092986d389460cc29d617a7e370",
+        "exportSubpath": "./untitled-ui/components/foundations/logo/untitledui-logo-minimal"
+      },
+      {
+        "path": "components/foundations/logo/untitledui-logo.tsx",
+        "kind": "component",
+        "sha256": "987cf75638639c0c3e96609f035645f80121a47cb713ecf0cdde4d12170bd0ab",
+        "exportSubpath": "./untitled-ui/components/foundations/logo/untitledui-logo"
+      },
+      {
+        "path": "components/foundations/payment-icons/affirm-icon.tsx",
+        "kind": "component",
+        "sha256": "d8e2be03d8ddc80b07031fac9f10744bd6addb8cc8d6c0abc176baa25830d8b7",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/affirm-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/afterpay-icon.tsx",
+        "kind": "component",
+        "sha256": "7db88650d678350a22bc58b62475a7f56c491e9902ed9864cbc2458b8a5754ba",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/afterpay-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/alipay-icon.tsx",
+        "kind": "component",
+        "sha256": "13f1227cb5bfa79d5bc6817e98f3788fa27c5f536baab9715d19f6c88045536a",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/alipay-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/amazon-icon.tsx",
+        "kind": "component",
+        "sha256": "4442bbe2782452628fd85cf00d68fc1039576851555aa1dcd016d1d957278afd",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/amazon-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/amex-icon.tsx",
+        "kind": "component",
+        "sha256": "e90ce4931e2f35de62d3dac6f7a888cde758f0fca21d6ed1f433ed50e939cf6e",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/amex-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/apple-pay-icon.tsx",
+        "kind": "component",
+        "sha256": "f06ad7db329af6c5e545227dc505799adee8a347a4803025cd6999da374f94fb",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/apple-pay-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/ayden-icon.tsx",
+        "kind": "component",
+        "sha256": "98621a7dfdb2dcd9081699a88ad487f9f95b3798c81c24a3eb7a85fe4f8c472f",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/ayden-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/bancontact-icon.tsx",
+        "kind": "component",
+        "sha256": "f93744ca6963117cb287c2ea13a6db13525aff061a8c30bbc4f5b7fba53f53fc",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/bancontact-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/binance-pay-icon.tsx",
+        "kind": "component",
+        "sha256": "297c46c8ba5252a312bb4a65eb85d2739b30dbfb554e05916daa277cfaf11c8a",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/binance-pay-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/bitcoin-cash-icon.tsx",
+        "kind": "component",
+        "sha256": "9b9392c734ae6afb49222058d58789e01b7cf18428a2dbd142dc4f89a6d620e5",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/bitcoin-cash-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/bitcoin-icon.tsx",
+        "kind": "component",
+        "sha256": "84e9fb7934b6516ee4d4e37b937a5438c4a3c23ca0336d2ad4e93f44aebb3f92",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/bitcoin-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/bitpay-icon.tsx",
+        "kind": "component",
+        "sha256": "ac4ca2929b89822227dd4412d0c8104dd1845a57253e311d1e6df19bc7123850",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/bitpay-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/braintree-icon.tsx",
+        "kind": "component",
+        "sha256": "a8fd6c5a4e2717f5a399fe7b9bb922356bb9d8a258541bb67c067cc9d0f9ddff",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/braintree-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/cash-app-pay-icon.tsx",
+        "kind": "component",
+        "sha256": "8c566958865f84eab151a496ecb35ed58e1d67bfd21a87231ad2699c80839ddd",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/cash-app-pay-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/citadele-icon.tsx",
+        "kind": "component",
+        "sha256": "c70478c977b5767d4c7f442c1668b8aee983367403726b335f052db013d13bac",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/citadele-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/coinbase-icon.tsx",
+        "kind": "component",
+        "sha256": "4aeb205ce4ff80c2eaab9b9054fe40c0c7130a324e81af55e8c73edd6ac1dbb6",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/coinbase-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/diners-club-icon.tsx",
+        "kind": "component",
+        "sha256": "517649ca2508276b3603ff75a4c59d93e7f88676cad877ab4d172585cdc6b35f",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/diners-club-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/discover-icon.tsx",
+        "kind": "component",
+        "sha256": "e951c33575ec44d2d4e377e8d25a808e4955268e424949bdbee62afd55b747b7",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/discover-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/elo-icon.tsx",
+        "kind": "component",
+        "sha256": "9dbe75033faca9e5316abc9bcf35ecec5fc4471c3f3b4271f9012dc0506884d3",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/elo-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/etherium-icon.tsx",
+        "kind": "component",
+        "sha256": "502b9066f3fcbfdd9d4e30c84eb366cfa743152ae0db294b90e728fc0bdbcebb",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/etherium-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/forbrugsforeningen-icon.tsx",
+        "kind": "component",
+        "sha256": "fc658623d70d6504eb5d9b786e3a75f7f65fb725f12f34544f3d98ada364688a",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/forbrugsforeningen-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/giropay-icon.tsx",
+        "kind": "component",
+        "sha256": "225daf153e629f0df5663591053b7ed5584b2eda84658d19a8d8d23b87c88b5e",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/giropay-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/google-pay-icon.tsx",
+        "kind": "component",
+        "sha256": "f9c69a11d638b028038e4c8f9bde87c313adcb69709ff1eea6d4678286906a5c",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/google-pay-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/ideal-icon.tsx",
+        "kind": "component",
+        "sha256": "0c37ba46c12ab220bdfd11694949b2bc1343bdf5abd2f03c2db323529b482d4a",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/ideal-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/index.tsx",
+        "kind": "component",
+        "sha256": "9dac980d7fd36708786e351868d4693a347e57d8465b2bf27ce9addd999648da",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/index"
+      },
+      {
+        "path": "components/foundations/payment-icons/interac-icon.tsx",
+        "kind": "component",
+        "sha256": "7f88c2d6066191ffa1ac1343f1da9fc79e7fba784feeed1f6d7853328e9f6782",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/interac-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/jcb-icon.tsx",
+        "kind": "component",
+        "sha256": "010228f8dd2a2844af65592b0a6e8e1b0ed4d94665dd0aea0cbf08ee18e58942",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/jcb-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/klarna-icon.tsx",
+        "kind": "component",
+        "sha256": "70147d364a5c7025a97b1ef824cf5299a5aaaaefbca3ff4677abd042ae41fb38",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/klarna-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/lightcoin-icon.tsx",
+        "kind": "component",
+        "sha256": "4413eadfe4687c3319624a68e70981b1cdf5135bb690a823a14977e89bd2d2e9",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/lightcoin-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/maestro-icon.tsx",
+        "kind": "component",
+        "sha256": "c093462b85bc308cfb515e6dbaffa62a1309d5dcc264f6042feaf7e6f94f3b05",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/maestro-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/mastercard-icon.tsx",
+        "kind": "component",
+        "sha256": "ebed7d18a3441d7f0c8f2238ee5a7e2fabbc4ca66782783fa349198000e2cf7e",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/mastercard-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/payoneer-icon.tsx",
+        "kind": "component",
+        "sha256": "5f29f13ebb66b662ebcfc433f9211fd376af455d1d9a100354279f5c3d3353c3",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/payoneer-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/paypal-icon.tsx",
+        "kind": "component",
+        "sha256": "bfa832f7d12d73c19126c39959b546cc52f0bf8258e600611a05b864eaff13f4",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/paypal-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/paysafe-icon.tsx",
+        "kind": "component",
+        "sha256": "9192eea5bebfb6e197670eb8d843b39699d48309af5e1bcbd08e8e642e111b35",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/paysafe-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/qiwi-icon.tsx",
+        "kind": "component",
+        "sha256": "d997d867fab72dc767768f570f652d9f5a3dc058c17d33b2ffdf5c6576e0e999",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/qiwi-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/razorpay-icon.tsx",
+        "kind": "component",
+        "sha256": "7e6ac81e5390d388e113f3609e63b4678840eaddd474eed2759ddb8f90c89c04",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/razorpay-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/revolut-icon.tsx",
+        "kind": "component",
+        "sha256": "71edceba5735dfb463261ef71a7b8b4b4fb772194167bf8f250be80c0489538b",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/revolut-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/ru-pay-icon.tsx",
+        "kind": "component",
+        "sha256": "a493302745ed28ae748ba179f18fe8619d1d16f1f94d8f46d82a78a35206018b",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/ru-pay-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/samsung-pay-icon.tsx",
+        "kind": "component",
+        "sha256": "907c3dc8bc0450200be442d6287a3207bc0553745489b877a8b896e9f26fcae1",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/samsung-pay-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/sepa-icon.tsx",
+        "kind": "component",
+        "sha256": "7961ebc488179642359ced843463b83e60d5dede8037be3f6f407df3a40a0cc7",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/sepa-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/shop-pay-icon.tsx",
+        "kind": "component",
+        "sha256": "807ecc67c86ee737585691cb54f4d3a3564468c067083bea5836169acee78438",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/shop-pay-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/shopee-pay-icon.tsx",
+        "kind": "component",
+        "sha256": "c1b4427b6ab58a1fc2436103be980991524bec09ae7131d2afdf0b443c10af2e",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/shopee-pay-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/skrill-icon.tsx",
+        "kind": "component",
+        "sha256": "b1e9eaf447ed804ba8dc668e056c8460f871069ba2a261f1dc8866d5b20edbe3",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/skrill-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/sofort-icon.tsx",
+        "kind": "component",
+        "sha256": "a27c0f5baa931ad5ba61c1659f2d7b4d2135e8ce3434566e7d7c000cb8a7e579",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/sofort-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/stripe-icon.tsx",
+        "kind": "component",
+        "sha256": "33e7db25a76e1add1e14bdbbfa3e775def61a4e70048dcdd7eb324a1129d0ada",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/stripe-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/union-pay-icon.tsx",
+        "kind": "component",
+        "sha256": "18eb36ca94d3c25adf2e2739b576db77f39c683aa290b35d7bd16197ce13b478",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/union-pay-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/upi-icon.tsx",
+        "kind": "component",
+        "sha256": "6d6fcb8dce8ed32bd77261e0020bd6da45c6f91e32dcbb0930eab02da065b888",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/upi-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/venmo-icon.tsx",
+        "kind": "component",
+        "sha256": "13a8a159c61fb1347397ec423836793b48520f367112fba24b4511b410c89e6c",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/venmo-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/verifone-icon.tsx",
+        "kind": "component",
+        "sha256": "b203247e632a49e0b211ab4b789bb1d2e89802d488e83e7b410ce5b5ad6f1fe0",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/verifone-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/visa-icon.tsx",
+        "kind": "component",
+        "sha256": "5c2e41445004cb3675c422b65af34ee2b1996ca8c5dce958397df8aa0e3ff9c0",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/visa-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/we-chat-icon.tsx",
+        "kind": "component",
+        "sha256": "e75d8d865c9fb05ee9ade69ece737371865f404b4c6dc15cf00c881d1a45bf3f",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/we-chat-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/we-chat-pay-icon.tsx",
+        "kind": "component",
+        "sha256": "5f021a8e16ab9648ff636dbe36d3107e862ee8d23c1d49c48e2618d0ec38b996",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/we-chat-pay-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/webmoney-icon.tsx",
+        "kind": "component",
+        "sha256": "b31c1a00108bfa31fe74d7a402603e4d41fb0cb0c5e4ee915a60a34ff1bdd7f7",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/webmoney-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/wise-icon.tsx",
+        "kind": "component",
+        "sha256": "c354d2ceb58ba7d54f0f3a34d5b263f169977cb70484377f274fbf68668564ad",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/wise-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/yandex-icon.tsx",
+        "kind": "component",
+        "sha256": "df51be6d4ce894d3bafdc187a3b4399d1924ec710f92ab7d41e001942afa4c36",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/yandex-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/zelle-icon.tsx",
+        "kind": "component",
+        "sha256": "24651bf26e8aebcfea252162c8c3f1a6600919664eabb148e080bb55882f40ee",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/zelle-icon"
+      },
+      {
+        "path": "components/foundations/payment-icons/zip-pay-icon.tsx",
+        "kind": "component",
+        "sha256": "1d82baa052ee2fd16e6fa5e3fa72f79b8b39350c1ec51d777819bea74e88e1f3",
+        "exportSubpath": "./untitled-ui/components/foundations/payment-icons/zip-pay-icon"
+      },
+      {
+        "path": "components/foundations/play-button-icon.tsx",
+        "kind": "component",
+        "sha256": "d212c8841eaee952abe26a699a5b39cb5441cd11f59b3a1b88e914cf12d9cf7f",
+        "exportSubpath": "./untitled-ui/components/foundations/play-button-icon"
+      },
+      {
+        "path": "components/foundations/rating-badge.tsx",
+        "kind": "component",
+        "sha256": "f1f91ea2e5d5b2a6566648536ab9e5889589e420588f6a4fe6f68b23f42daefc",
+        "exportSubpath": "./untitled-ui/components/foundations/rating-badge"
+      },
+      {
+        "path": "components/foundations/rating-stars.tsx",
+        "kind": "component",
+        "sha256": "86222fc8da3a0b9874858a6c4a3894a9d87c985fbf9cc40bf761a80fa681d7ce",
+        "exportSubpath": "./untitled-ui/components/foundations/rating-stars"
+      },
+      {
+        "path": "components/foundations/social-icons/angel-list.tsx",
+        "kind": "component",
+        "sha256": "61ea707399e4dee6990777e68334dd59f0b8ced80da24a81bf21d594d705492c",
+        "exportSubpath": "./untitled-ui/components/foundations/social-icons/angel-list"
+      },
+      {
+        "path": "components/foundations/social-icons/apple.tsx",
+        "kind": "component",
+        "sha256": "e73cee2bc57e7796aba85e814c22ff71e910184c9d018b909088da24b1cf3d38",
+        "exportSubpath": "./untitled-ui/components/foundations/social-icons/apple"
+      },
+      {
+        "path": "components/foundations/social-icons/clubhouse.tsx",
+        "kind": "component",
+        "sha256": "8ca669e7a88a2f1951592b2cc41ac54ae85e939ab26d96712904f72156f203f4",
+        "exportSubpath": "./untitled-ui/components/foundations/social-icons/clubhouse"
+      },
+      {
+        "path": "components/foundations/social-icons/discord.tsx",
+        "kind": "component",
+        "sha256": "7cb0be7e428255e1c771e12e1a6c3b84655259d40e9976b167ef5321e1aed7a2",
+        "exportSubpath": "./untitled-ui/components/foundations/social-icons/discord"
+      },
+      {
+        "path": "components/foundations/social-icons/dribbble.tsx",
+        "kind": "component",
+        "sha256": "edaadc23c6a83c6c33422bf67ecee8e32b289d1aeaa6aa091552f15bb07eaa63",
+        "exportSubpath": "./untitled-ui/components/foundations/social-icons/dribbble"
+      },
+      {
+        "path": "components/foundations/social-icons/facebook.tsx",
+        "kind": "component",
+        "sha256": "fae1f3749e42931b615ecf497d6f49a8f0e8b00a916b0de65bc74563271dca52",
+        "exportSubpath": "./untitled-ui/components/foundations/social-icons/facebook"
+      },
+      {
+        "path": "components/foundations/social-icons/figma.tsx",
+        "kind": "component",
+        "sha256": "30d2bb31c34b6eb15cb40d0defb98eb9ffd6d4f0cea59fbd85e0a17a5ac488c6",
+        "exportSubpath": "./untitled-ui/components/foundations/social-icons/figma"
+      },
+      {
+        "path": "components/foundations/social-icons/github.tsx",
+        "kind": "component",
+        "sha256": "ea64156aa91b9f86269cbd9e83f1ebe5e24747138b047725358cbb0b784d5ad9",
+        "exportSubpath": "./untitled-ui/components/foundations/social-icons/github"
+      },
+      {
+        "path": "components/foundations/social-icons/google.tsx",
+        "kind": "component",
+        "sha256": "b0ec7ab2c29c5f8ad577c29c9abac260f86deaf6606243a2d04f5d72fdfbffdb",
+        "exportSubpath": "./untitled-ui/components/foundations/social-icons/google"
+      },
+      {
+        "path": "components/foundations/social-icons/index.tsx",
+        "kind": "component",
+        "sha256": "938a584f56d3250d78ed234f0f0b93625fbae83fb57cc1b126a020bc5fd3bf14",
+        "exportSubpath": "./untitled-ui/components/foundations/social-icons/index"
+      },
+      {
+        "path": "components/foundations/social-icons/instagram.tsx",
+        "kind": "component",
+        "sha256": "1c9ced86081b288e2004d9bf261266c6d86a7ddfa4f5fd4d8280f736161858a6",
+        "exportSubpath": "./untitled-ui/components/foundations/social-icons/instagram"
+      },
+      {
+        "path": "components/foundations/social-icons/layers.tsx",
+        "kind": "component",
+        "sha256": "a741e60e9da0470da21010d02eeb63586ad08f40ec7760ef9c8c0b62dab1d136",
+        "exportSubpath": "./untitled-ui/components/foundations/social-icons/layers"
+      },
+      {
+        "path": "components/foundations/social-icons/linkedin.tsx",
+        "kind": "component",
+        "sha256": "a6d34e86d2456a2fbcb8671df51660f14a7f71fc4461a7e6fe87e72a620b9b44",
+        "exportSubpath": "./untitled-ui/components/foundations/social-icons/linkedin"
+      },
+      {
+        "path": "components/foundations/social-icons/pinterest.tsx",
+        "kind": "component",
+        "sha256": "8137557a5d5215201b336529dbc50cb6d3f3ab53cd2a74d6f833b69fa1544d38",
+        "exportSubpath": "./untitled-ui/components/foundations/social-icons/pinterest"
+      },
+      {
+        "path": "components/foundations/social-icons/reddit.tsx",
+        "kind": "component",
+        "sha256": "1f4cb2ae003205d61cf8861bb7e41be33d79143f02cc0d440b672f9e37aca262",
+        "exportSubpath": "./untitled-ui/components/foundations/social-icons/reddit"
+      },
+      {
+        "path": "components/foundations/social-icons/signal.tsx",
+        "kind": "component",
+        "sha256": "d0b1476dfab8436a42df1b5778a53c6b9096fff0725ecea865e71ba803f50d30",
+        "exportSubpath": "./untitled-ui/components/foundations/social-icons/signal"
+      },
+      {
+        "path": "components/foundations/social-icons/snapchat.tsx",
+        "kind": "component",
+        "sha256": "37e39e708aa4a2870ed646359cf96409cdeb1b01124a3884bcb3d010e8bf11a9",
+        "exportSubpath": "./untitled-ui/components/foundations/social-icons/snapchat"
+      },
+      {
+        "path": "components/foundations/social-icons/telegram.tsx",
+        "kind": "component",
+        "sha256": "7b665dae05bd6da395c36246ddb178ec8fef448463e17967db620922e5ab502a",
+        "exportSubpath": "./untitled-ui/components/foundations/social-icons/telegram"
+      },
+      {
+        "path": "components/foundations/social-icons/tiktok.tsx",
+        "kind": "component",
+        "sha256": "c30e786bc57efa334ca39489d740460ae8d2f3f102e86bfa1b6e7c3762d2b094",
+        "exportSubpath": "./untitled-ui/components/foundations/social-icons/tiktok"
+      },
+      {
+        "path": "components/foundations/social-icons/tumblr.tsx",
+        "kind": "component",
+        "sha256": "870992adfe21cafaf04bce1e9c55150d16e6caed5c4293a26bb1e6af11136c78",
+        "exportSubpath": "./untitled-ui/components/foundations/social-icons/tumblr"
+      },
+      {
+        "path": "components/foundations/social-icons/twitter.tsx",
+        "kind": "component",
+        "sha256": "7d4488a087b43ae0a9a9e26fe6a28fb776e4fb226f86b7e4bc51e9630eebaad3",
+        "exportSubpath": "./untitled-ui/components/foundations/social-icons/twitter"
+      },
+      {
+        "path": "components/foundations/social-icons/x.tsx",
+        "kind": "component",
+        "sha256": "607158ec0639062c69c0adb08700fedd86b45570dc712fd3618cb594f46517f1",
+        "exportSubpath": "./untitled-ui/components/foundations/social-icons/x"
+      },
+      {
+        "path": "components/foundations/social-icons/youtube.tsx",
+        "kind": "component",
+        "sha256": "b695c65283ab206659d9fceef1c4e757774bc290e1964364a2ce54764c199561",
+        "exportSubpath": "./untitled-ui/components/foundations/social-icons/youtube"
+      },
+      {
+        "path": "components/shared-assets/background-patterns/circle.tsx",
+        "kind": "component",
+        "sha256": "e8663aba3df672bea68547c2e330ee9e306f4be580fbe8ad2d4ff57ecf663b99",
+        "exportSubpath": "./untitled-ui/components/shared-assets/background-patterns/circle"
+      },
+      {
+        "path": "components/shared-assets/background-patterns/grid-check.tsx",
+        "kind": "component",
+        "sha256": "7b9621d2d7ad43d45cbdfa03e456614a8d6f8cfd9023d68041d177ded3367a13",
+        "exportSubpath": "./untitled-ui/components/shared-assets/background-patterns/grid-check"
+      },
+      {
+        "path": "components/shared-assets/background-patterns/grid.tsx",
+        "kind": "component",
+        "sha256": "7e6ba096f2e9638dc399a82f1fc1ebeab245e4a4dfc512a73996e83ea1abd1fc",
+        "exportSubpath": "./untitled-ui/components/shared-assets/background-patterns/grid"
+      },
+      {
+        "path": "components/shared-assets/background-patterns/index.tsx",
+        "kind": "component",
+        "sha256": "4d13fbd538121384e9b732704af6bbf65b6ae890cc28f48b32ba6cf6d0f52552",
+        "exportSubpath": "./untitled-ui/components/shared-assets/background-patterns/index"
+      },
+      {
+        "path": "components/shared-assets/background-patterns/square.tsx",
+        "kind": "component",
+        "sha256": "4477946d65dc260e5bbd54290cbc5bc0547bf00ae1cc4643ae688791b304b632",
+        "exportSubpath": "./untitled-ui/components/shared-assets/background-patterns/square"
+      },
+      {
+        "path": "components/shared-assets/credit-card/credit-card.tsx",
+        "kind": "component",
+        "sha256": "3473134640e273abc24d9042c06005aa11111a0d6cbdf89317b29681ac232626",
+        "exportSubpath": "./untitled-ui/components/shared-assets/credit-card/credit-card"
+      },
+      {
+        "path": "components/shared-assets/credit-card/icons.tsx",
+        "kind": "component",
+        "sha256": "967349577055e394c83cadf305f6bdaf5e31ef3a29b4f2134050f58a39b2ede5",
+        "exportSubpath": "./untitled-ui/components/shared-assets/credit-card/icons"
+      },
+      {
+        "path": "components/shared-assets/illustrations/box.tsx",
+        "kind": "component",
+        "sha256": "329428bc72093df258808114bfc979602d3a31c4451fc26a50b0b12adc4ff476",
+        "exportSubpath": "./untitled-ui/components/shared-assets/illustrations/box"
+      },
+      {
+        "path": "components/shared-assets/illustrations/cloud.tsx",
+        "kind": "component",
+        "sha256": "4488d3b04ed8e91f8287e515930fb98304f4a0d1d33ac4f8c80ea3be698a49e1",
+        "exportSubpath": "./untitled-ui/components/shared-assets/illustrations/cloud"
+      },
+      {
+        "path": "components/shared-assets/illustrations/credit-card.tsx",
+        "kind": "component",
+        "sha256": "85902d04406d1c9c0a57fa9a0386f7c9237608b3cc0b97c02f148ace78ae414c",
+        "exportSubpath": "./untitled-ui/components/shared-assets/illustrations/credit-card"
+      },
+      {
+        "path": "components/shared-assets/illustrations/documents.tsx",
+        "kind": "component",
+        "sha256": "29f3af122c905c614289a901cedc03f1e9227730a40f75f5d22e3ecd44d3fc71",
+        "exportSubpath": "./untitled-ui/components/shared-assets/illustrations/documents"
+      },
+      {
+        "path": "components/shared-assets/illustrations/index.tsx",
+        "kind": "component",
+        "sha256": "64a1959a9e0880a5d1bff17535b217174876e244b23292435b311aef345de439",
+        "exportSubpath": "./untitled-ui/components/shared-assets/illustrations/index"
+      },
+      {
+        "path": "components/shared-assets/iphone-mockup.tsx",
+        "kind": "component",
+        "sha256": "fd0c58b6d1c9ff6c6059b9392cfef4e76158812653d38a0a01426d96ff5779b3",
+        "exportSubpath": "./untitled-ui/components/shared-assets/iphone-mockup"
+      },
+      {
+        "path": "components/shared-assets/qr-code.tsx",
+        "kind": "component",
+        "sha256": "aa1b1cd551cbfaa10bd9c9f7a5f1e74de9a79263bd91f879100047ec21b47173",
+        "exportSubpath": "./untitled-ui/components/shared-assets/qr-code"
+      },
+      {
+        "path": "components/shared-assets/section-divider.tsx",
+        "kind": "component",
+        "sha256": "5f06d06162fcd4eae0b3db29a3e2307a119e5c84c5db5acca0e26afd207b51f0",
+        "exportSubpath": "./untitled-ui/components/shared-assets/section-divider"
+      },
+      {
+        "path": "hooks/use-active-item.ts",
+        "kind": "hook",
+        "sha256": "c3d2be3e3c0ee678d44a8e8aed28c67ee652380e3b02f1b693e72b6edb02b65a",
+        "exportSubpath": "./untitled-ui/hooks/use-active-item"
+      },
+      {
+        "path": "hooks/use-breakpoint.ts",
+        "kind": "hook",
+        "sha256": "ba5c0a5d3e67b3a798b747462518bdf958a01844116cebe9ac2bbe1439643260",
+        "exportSubpath": "./untitled-ui/hooks/use-breakpoint"
+      },
+      {
+        "path": "hooks/use-clipboard.ts",
+        "kind": "hook",
+        "sha256": "81caf04066b528bba50e3d9b44a1fb7b72808d09eddd069d448e9edb92ce904d",
+        "exportSubpath": "./untitled-ui/hooks/use-clipboard"
+      },
+      {
+        "path": "hooks/use-resize-observer.ts",
+        "kind": "hook",
+        "sha256": "321c8af4aa1381839b0459425f243151d2c56d2cdaed836cb28c56809f20eb5c",
+        "exportSubpath": "./untitled-ui/hooks/use-resize-observer"
+      },
+      {
+        "path": "LICENSE",
+        "kind": "license",
+        "sha256": "c4b824495f1d48ee0b257606dccdb9b0a442d565ce155fc1eb86f497172534e1"
+      },
+      {
+        "path": "README.md",
+        "kind": "readme",
+        "sha256": "2283ff0f2ac8bc15916781ca0fa54dc0db4d47590737451c7168aaa2491defa0"
+      },
+      {
+        "path": "styles/globals.css",
+        "kind": "style",
+        "sha256": "0c1fd5eebe0cb65dbf9e81d2e3950d6156a872acd187330cd79574f85c40883e"
+      },
+      {
+        "path": "styles/theme.css",
+        "kind": "style",
+        "sha256": "52241a7d0d28f7022b59f11006d5f4b6b38e8173ef1ef2d81fb62cde520e344c"
+      },
+      {
+        "path": "styles/typography.css",
+        "kind": "style",
+        "sha256": "531cc316caf58796c51e7e67abe4ceb88e4c21ff3c483c018bef1c336c19b109"
+      },
+      {
+        "path": "utils/countries.tsx",
+        "kind": "utility",
+        "sha256": "719eb766cb4ab217d1920ece797ed1db9296c2ded1369fa44e88522f806f1a1b",
+        "exportSubpath": "./untitled-ui/utils/countries"
+      },
+      {
+        "path": "utils/cx.ts",
+        "kind": "utility",
+        "sha256": "d32cbae0ef101a957c58c0fff7b81738917c9f6b3f150103301e26192af62bcf",
+        "exportSubpath": "./untitled-ui/utils/cx"
+      },
+      {
+        "path": "utils/is-react-component.ts",
+        "kind": "utility",
+        "sha256": "2f24cf5e7c8cc9b8bb16750a59fbe58db32fc11c09d3b4d57288b15b31a98541",
+        "exportSubpath": "./untitled-ui/utils/is-react-component"
+      },
+      {
+        "path": "utils/timezones.tsx",
+        "kind": "utility",
+        "sha256": "52c31e77ee32a581e82fdaf2be7bea9283faeb51f58ef61dcff0aea8c3831d6a",
+        "exportSubpath": "./untitled-ui/utils/timezones"
+      }
+    ],
+    "excluded": [
+      {
+        "path": "components/application/app-navigation/base-components/featured-cards.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/application/app-navigation/base-components/featured-cards.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/application/app-navigation/header-navigation.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/application/app-navigation/header-navigation.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/application/app-navigation/sidebar-navigation.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/application/app-navigation/sidebar-navigation.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/application/carousel/carousel.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/application/carousel/carousel.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/application/charts/activity-gauges.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/application/charts/activity-gauges.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/application/charts/bar-charts.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/application/charts/bar-charts.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/application/charts/line-charts.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/application/charts/line-charts.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/application/charts/pie-charts.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/application/charts/pie-charts.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/application/charts/progress-circles.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/application/charts/progress-circles.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/application/charts/radar-charts.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/application/charts/radar-charts.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/application/date-picker/date-picker.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/application/date-picker/date-picker.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/application/file-upload/file-upload.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/application/file-upload/file-upload.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/application/loading-indicator/loading-indicator.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/application/loading-indicator/loading-indicator.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/application/pagination/pagination.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/application/pagination/pagination.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/application/table/table.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/application/table/table.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/application/tabs/tabs.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/application/tabs/tabs.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/base/avatar/avatar.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/base/avatar/avatar.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/base/badges/badge-groups.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/base/badges/badge-groups.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/base/badges/badges.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/base/badges/badges.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/base/button-group/button-group.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/base/button-group/button-group.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/base/buttons/app-store-buttons.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/base/buttons/app-store-buttons.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/base/buttons/buttons.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/base/buttons/buttons.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/base/buttons/social-buttons.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/base/buttons/social-buttons.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/base/checkbox/checkbox.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/base/checkbox/checkbox.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/base/dropdown/dropdown.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/base/input/inputs.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/base/input/inputs.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/base/input/pin-input.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/base/input/pin-input.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/base/progress-indicators/progress-indicators.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/base/progress-indicators/progress-indicators.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/base/radio-buttons/radio-buttons.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/base/radio-buttons/radio-buttons.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/base/select/select.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/base/select/select.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/base/slider/slider.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/base/slider/slider.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/base/tags/tags.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/base/tags/tags.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/base/textarea/textarea.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/base/textarea/textarea.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/base/toggle/toggle.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/base/toggle/toggle.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/base/tooltip/tooltip.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/base/tooltip/tooltip.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/foundations/featured-icon/featured-icon.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/foundations/featured-icon/featured-icon.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/foundations/integration-icons/integration-icons.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/foundations/payment-icons/payment-icons.story.tsx",
+        "reason": "story"
+      },
+      {
+        "path": "components/internal/decorators.tsx",
+        "reason": "internal"
+      },
+      {
+        "path": "components/shared-assets/credit-card/credit-card.demo.tsx",
+        "reason": "demo"
+      },
+      {
+        "path": "components/shared-assets/credit-card/credit-card.story.tsx",
+        "reason": "story"
+      }
+    ]
+  }
+}

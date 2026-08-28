@@ -3,12 +3,77 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist",
+    "vendor",
+    "THIRD_PARTY_NOTICES.md"
+  ],
   "main": "./dist/al-ui.js",
   "module": "./dist/al-ui.js",
   "types": "./dist/index.d.ts",
-  "exports": {".": {"types": "./dist/index.d.ts", "import": "./dist/al-ui.js"}, "./styles.css": "./dist/al-ui.css"},
-  "scripts": {"dev": "vite --host 127.0.0.1", "build": "tsc -b && vite build", "test": "vitest run", "check": "npm run test && npm run build"},
-  "peerDependencies": {"react": ">=18", "react-dom": ">=18"},
-  "devDependencies": {"@types/react": "latest", "@types/react-dom": "latest", "@vitejs/plugin-react": "latest", "jsdom": "latest", "react": "latest", "react-dom": "latest", "typescript": "latest", "vite": "latest", "vitest": "latest"}
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/al-ui.js"
+    },
+    "./styles.css": "./dist/al-ui.css",
+    "./untitled-ui/styles.css": "./vendor/untitled-ui/styles/package.css",
+    "./untitled-ui/manifest.json": "./vendor/untitled-ui/manifest.json",
+    "./untitled-ui/LICENSE": "./vendor/untitled-ui/LICENSE",
+    "./untitled-ui/source/*": "./vendor/untitled-ui/*",
+    "./untitled-ui/*": {
+      "types": "./dist/untitled-ui/*.d.ts",
+      "import": "./dist/untitled-ui/*.js",
+      "default": "./dist/untitled-ui/*.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "vendor:untitled-ui": "node scripts/vendor-untitled-ui.mjs",
+    "build:core": "tsc -b && vite build",
+    "build:untitled-ui": "tsc -p tsconfig.untitled-ui.json && tsc-alias -p tsconfig.untitled-ui.json --resolve-full-paths --resolve-full-extension .js",
+    "build": "npm run build:core && npm run build:untitled-ui",
+    "test": "vitest run",
+    "test:untitled-ui:smoke": "node scripts/run-untitled-ui-smoke.mjs",
+    "check": "npm run test && npm run build && npm run test:untitled-ui:smoke"
+  },
+  "dependencies": {
+    "@internationalized/date": "^3.12.3",
+    "@react-aria/utils": "^3.34.1",
+    "@react-stately/utils": "^3.12.1",
+    "@react-types/overlays": "^3.10.0",
+    "@react-types/shared": "^3.36.1",
+    "@tailwindcss/typography": "^0.5.20",
+    "@untitledui/file-icons": "^0.0.9",
+    "@untitledui/icons": "^0.0.22",
+    "embla-carousel-react": "^8.6.0",
+    "input-otp": "^1.4.2",
+    "motion": "^12.42.2",
+    "qr-code-styling": "^1.9.2",
+    "react-aria": "^3.51.0",
+    "react-aria-components": "^1.20.0",
+    "react-hook-form": "^7.82.0",
+    "react-stately": "^3.48.0",
+    "recharts": "^3.10.0",
+    "tailwind-merge": "^3.6.0",
+    "tailwindcss": "^4.3.3",
+    "tailwindcss-animate": "^1.0.7",
+    "tailwindcss-react-aria-components": "^2.2.0"
+  },
+  "peerDependencies": {
+    "react": ">=19.2",
+    "react-dom": ">=19.2"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@vitejs/plugin-react": "latest",
+    "jsdom": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "tsc-alias": "^1.8.16",
+    "typescript": "latest",
+    "vite": "latest",
+    "vitest": "latest"
+  }
 }

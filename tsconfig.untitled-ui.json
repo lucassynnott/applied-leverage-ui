@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "declaration": true,
+    "declarationMap": false,
+    "sourceMap": false,
+    "rootDir": "vendor/untitled-ui",
+    "outDir": "dist/untitled-ui",
+    "paths": {
+      "@/*": ["./vendor/untitled-ui/*"]
+    }
+  },
+  "include": [
+    "vendor/untitled-ui/components/**/*.ts",
+    "vendor/untitled-ui/components/**/*.tsx",
+    "vendor/untitled-ui/hooks/**/*.ts",
+    "vendor/untitled-ui/hooks/**/*.tsx",
+    "vendor/untitled-ui/utils/**/*.ts",
+    "vendor/untitled-ui/utils/**/*.tsx"
+  ],
+  "exclude": [
+    "vendor/untitled-ui/components/**/*.demo.tsx",
+    "vendor/untitled-ui/components/**/*.story.tsx",
+    "vendor/untitled-ui/components/internal/**"
+  ]
+}
